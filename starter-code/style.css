@@ -3,6 +3,33 @@
   padding: 0;
 }
 body {
+  
+}
+.clearfix {
+  clear: both;
+}
+nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: #fff;
   background-color: #cb3837;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.top-left {
+  float: left;
+  width: 30%;
+  margin-left: 20px;
+}
+.nav-links {
+  display: inline;
+  float: right;
+  margin: 0 20px 0 0;
+}
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
 }
