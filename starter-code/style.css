@@ -3,7 +3,8 @@
   padding: 0;
 }
 body {
-  
+  color: #fff;
+  font-family: "Open Sans", OpenSans, sans-serif;
 }
 .clearfix {
   clear: both;
@@ -11,7 +12,6 @@ body {
 nav {
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #fff;
   background-color: #cb3837;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -37,9 +37,6 @@ nav a {
   background-color: #21597a;
   padding-top: 10px;
 }
-#search {
-  color: #fff;
-}
 .logo {
   float: left;
   width: 10%;
@@ -58,7 +55,6 @@ nav a {
 }
 .form form input, .form form button {
   height: 100%;
-  color: #fff;
   border: 1px solid #aaa;
   border-radius: 5px;
 }
@@ -88,4 +84,38 @@ nav a {
 .bear img {
   display: inline;
   height: 40px;
+}
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+#signup {
+  /* height: 600px; */
+  padding-top: 50px;
+  padding-bottom: 90px;
+  background-image: url('images/city-scape.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#signup h2 {
+  width: 30%;
+  margin: 0 auto 0 15%;
+  font-size: 3em;
+  font-weight: 100;
+}
+#signup p {
+  margin: 25px auto 25px 15%;
+  width: 40%;
+  font-size: 1.25em;
+}
+#signup a {
+  margin: 30px auto 0 15%;
+  padding: 8px 15px;
+  background-color: rgb(240, 146, 51);
+  font-size: 1.15em;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
 }
