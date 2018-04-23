@@ -33,3 +33,59 @@ nav a {
   display: inline;
   margin: 0 10px;
 }
+.header {
+  background-color: #21597a;
+  padding-top: 10px;
+}
+#search {
+  color: #fff;
+}
+.logo {
+  float: left;
+  width: 10%;
+  padding: 0 20px 0 20px;
+}
+.logo img {
+  width: 100%;
+}
+.form {
+  float: left;
+  height: 40px;
+  width: 65%;
+}
+.form form {
+  height: 100%;
+}
+.form form input, .form form button {
+  height: 100%;
+  color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+.form form input {
+  float: left;
+  width: 95%;
+  background-color: rgb(31, 82, 111);
+}
+.form form button {
+  width: 5%;
+  background-color: rgb(31, 82, 111);
+}
+.bear {
+  float: right;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+  padding-right: 30px;
+  text-align: right;
+}
+.bear p {
+  float: left;
+  margin-right: 15px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.bear img {
+  display: inline;
+  height: 40px;
+}
