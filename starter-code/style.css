@@ -144,3 +144,26 @@ nav a {
 .text .link-btn {
   background-color: rgb(203, 56, 55);
 }
+#install {
+  position: relative;
+  height: 500px;
+  background-image: url("images/forklift.svg");
+}
+.slogan {
+  width: 50%;
+  position: absolute;
+  top: 150px;
+  left: 15%;
+}
+#install h2 {
+  margin-bottom: 25px;
+  font-size: 1.8em;
+}
+#install p {
+  width: 50%;
+  margin-bottom: 35px;
+  font-size: 1.25em;
+}
+#install .link-btn {
+  background-color: rgb(49, 68, 88);
+}
