@@ -167,3 +167,32 @@ nav a {
 #install .link-btn {
   background-color: rgb(49, 68, 88);
 }
+#what-can-do {
+  color: #000;
+}
+#what-can-do header .container {
+  text-align: center;
+  padding-bottom: 0;
+}
+#what-can-do h2 {
+  color: rgb(83, 88, 98);
+  font-weight: 100;
+}
+#what-can-do p {
+  color: rgb(135, 145, 156);
+}
+#what-can-do article {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+#what-can-do h3 {
+  margin: 20px;
+}
+#what-can-do p {
+  padding: 0 20px;
+}
+#what-can-do a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
